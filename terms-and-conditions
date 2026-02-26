@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions — ebikee</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F7F5F0;
+      --surface: #FFFFFF;
+      --text: #1A1A1A;
+      --muted: #6B6B6B;
+      --accent: #2D6A4F;
+      --border: #E5E2DC;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 1rem 4rem;
+    }
+
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.6rem;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    h2 .num {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--accent);
+      background: #e8f5ee;
+      padding: 0.15rem 0.5rem;
+      border-radius: 20px;
+      letter-spacing: 0.05em;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: #3A3A3A;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0.5rem 0 0.75rem 0;
+    }
+
+    ul li {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #3A3A3A;
+      padding: 0.3rem 0 0.3rem 1.25rem;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.8rem;
+    }
+
+    .highlight-box {
+      background: #e8f5ee;
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-card a:hover { text-decoration: underline; }
+
+    footer {
+      max-width: 720px;
+      margin: 3rem auto 0;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ebikee</div>
+    <h1>Terms & Conditions</h1>
+    <p class="meta">Last updated: February 2026</p>
+  </header>
+
+  <main>
+    <p class="intro">
+      By downloading or using the ebikee application, you agree to these Terms & Conditions. Please read them carefully before using the app.
+    </p>
+
+    <section>
+      <h2><span class="num">01</span> Acceptance of Terms</h2>
+      <p>By accessing or using ebikee, you confirm that you are at least 18 years old (or the legal age of majority in your country) and agree to be bound by these Terms. If you do not agree, please do not use the app.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span> User Accounts</h2>
+      <p>To use ebikee, you must create an account using a valid email address (via Magic Link) or your Google account. You are responsible for:</p>
+      <ul>
+        <li>Maintaining the confidentiality of your account</li>
+        <li>All activity that occurs under your account</li>
+        <li>Notifying us immediately of any unauthorized use</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span> Listings & Content</h2>
+      <p>When posting listings on ebikee, you agree to:</p>
+      <ul>
+        <li>Provide accurate and truthful information</li>
+        <li>Only list items you own or have the right to sell</li>
+        <li>Not post illegal, offensive, or misleading content</li>
+        <li>Not use the platform for any fraudulent purpose</li>
+      </ul>
+      <div class="highlight-box">ebikee reserves the right to remove any listing that violates these terms.</div>
+    </section>
+
+    <section>
+      <h2><span class="num">04</span> Messaging</h2>
+      <p>ebikee provides an in-app messaging feature to connect buyers and sellers. You agree not to use messaging to:</p>
+      <ul>
+        <li>Spam or harass other users</li>
+        <li>Share illegal or harmful content</li>
+        <li>Conduct transactions outside the platform to circumvent safety measures</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">05</span> Prohibited Activities</h2>
+      <p>You may not use ebikee to:</p>
+      <ul>
+        <li>Violate any applicable laws or regulations</li>
+        <li>Infringe the intellectual property rights of others</li>
+        <li>Distribute malware or harmful code</li>
+        <li>Scrape or harvest data from the platform</li>
+        <li>Impersonate another person or entity</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><span class="num">06</span> Disclaimer of Warranties</h2>
+      <p>ebikee is provided on an "as is" and "as available" basis. We make no warranties, express or implied, regarding the reliability, accuracy, or availability of the service. We are not responsible for transactions between users.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span> Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, ebikee shall not be liable for any indirect, incidental, or consequential damages arising from your use of the app, including disputes between buyers and sellers.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">08</span> Termination</h2>
+      <p>We reserve the right to suspend or terminate your account at any time if you violate these Terms. You may also delete your account at any time by contacting us.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">09</span> Changes to Terms</h2>
+      <p>We may update these Terms from time to time. Continued use of the app after changes constitutes acceptance of the new Terms. We will notify you of significant changes via email or in-app notification.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">10</span> Contact</h2>
+      <p>For any questions regarding these Terms & Conditions:</p>
+      <div class="contact-card">
+        <a href="mailto:support@ebikee.app">support@ebikee.app</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 ebikee. All rights reserved.</span>
+    <a href="privacy-policy.html">Privacy Policy →</a>
+  </footer>
+
+</body>
+</html>
