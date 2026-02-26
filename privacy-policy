@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — ebikee</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #F7F5F0;
+      --surface: #FFFFFF;
+      --text: #1A1A1A;
+      --muted: #6B6B6B;
+      --accent: #2D6A4F;
+      --border: #E5E2DC;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 0 1rem 4rem;
+    }
+
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 3rem;
+    }
+
+    .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.6rem;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.75;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--text);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    h2 .num {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 500;
+      color: var(--accent);
+      background: #e8f5ee;
+      padding: 0.15rem 0.5rem;
+      border-radius: 20px;
+      letter-spacing: 0.05em;
+    }
+
+    p {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: #3A3A3A;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0.5rem 0 0.75rem 0;
+    }
+
+    ul li {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #3A3A3A;
+      padding: 0.3rem 0 0.3rem 1.25rem;
+      position: relative;
+    }
+
+    ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.8rem;
+    }
+
+    .highlight-box {
+      background: #e8f5ee;
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      padding: 1rem 1.25rem;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-card a:hover { text-decoration: underline; }
+
+    footer {
+      max-width: 720px;
+      margin: 3rem auto 0;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">ebikee</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: February 2026</p>
+  </header>
+
+  <main>
+    <p class="intro">
+      Welcome to ebikee. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information when you use the ebikee mobile application.
+    </p>
+
+    <section>
+      <h2><span class="num">01</span> Information We Collect</h2>
+      <p>When you use ebikee, we may collect:</p>
+      <ul>
+        <li>Email address (for account authentication)</li>
+        <li>User ID</li>
+        <li>Messages sent within the app</li>
+        <li>Listings you create (including photos and descriptions)</li>
+        <li>Basic device information required for app functionality</li>
+      </ul>
+      <div class="highlight-box">We do not collect unnecessary personal data.</div>
+    </section>
+
+    <section>
+      <h2><span class="num">02</span> How We Use Your Information</h2>
+      <p>We use your information to:</p>
+      <ul>
+        <li>Provide account authentication (Magic Link or Google login)</li>
+        <li>Enable messaging between users</li>
+        <li>Display and manage listings</li>
+        <li>Improve app functionality and user experience</li>
+        <li>Send essential service-related emails (e.g., message notifications)</li>
+      </ul>
+      <div class="highlight-box">We do not sell your personal data.</div>
+    </section>
+
+    <section>
+      <h2><span class="num">03</span> Data Storage</h2>
+      <p>Your data is securely stored using trusted third-party services:</p>
+      <ul>
+        <li>Supabase (database and authentication)</li>
+        <li>Google Authentication (if you choose Google login)</li>
+        <li>Resend (transactional email delivery)</li>
+      </ul>
+      <p>These services process data in accordance with their own privacy and security standards.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">04</span> Account Deletion</h2>
+      <p>You may request deletion of your account at any time. When your account is deleted, your personal data will be removed from our active systems.</p>
+      <div class="contact-card">
+        For assistance, contact: <a href="mailto:support@ebikee.app">support@ebikee.app</a>
+      </div>
+    </section>
+
+    <section>
+      <h2><span class="num">05</span> Data Security</h2>
+      <p>We take reasonable technical and organizational measures to protect your data against unauthorized access, alteration, or disclosure.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">06</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Changes will be reflected on this page with an updated date.</p>
+    </section>
+
+    <section>
+      <h2><span class="num">07</span> Contact</h2>
+      <p>If you have questions regarding this Privacy Policy, please contact:</p>
+      <div class="contact-card">
+        <a href="mailto:support@ebikee.app">support@ebikee.app</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 ebikee. All rights reserved.</span>
+    <a href="terms-and-conditions.html">Terms & Conditions →</a>
+  </footer>
+
+</body>
+</html>
